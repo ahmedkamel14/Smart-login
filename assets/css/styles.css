@@ -31,3 +31,16 @@ nav{
     box-shadow: 0 0 0 transparent;
     border: 1px solid white;
 }
+
+
+/* ========================media=================== */
+
+@media (max-width: 576px) { 
+    
+.sec-wrapper h1{
+    font-size: 30px;
+}
+.sec-wrapper h6{
+    font-size: 12px;
+}
+ }

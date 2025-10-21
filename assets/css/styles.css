@@ -1,0 +1,33 @@
+.sec-wrapper , nav , .hero-wrapper {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav{
+    color: var(--bkg-color);
+}
+.nav-link {
+    border: 1px solid #ffc107;
+}
+
+
+.sec-wrapper h1{
+    color: #17a2b8;
+}
+
+.sec-wrapper h6 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.log{
+    color: rgba(255, 255, 255, .5);
+}
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid white;
+}

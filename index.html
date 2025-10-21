@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Login" />
+    <title>Login</title>
+    <!--========================== favicon========================= -->
+    <!-- <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png"> -->
+    <!--========================== font Titillium========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--========================== Font-awesome Icons========================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--========================== Bootstrap css========================= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--========================== main css========================= -->
+    <link rel="stylesheet" href="./assets/css/all.css" />
+  </head>
+  <body class="">
+    <div class="container my-5">
+      <div class="sec-wrapper w-65 mx-auto p-5">
+        <h1 class="text-center fw-medium fs-40 mb-3">Smart Login System</h1>
+        <form id="loginForm" action="" method="post">
+          <input id="emailLogInput"  type="email" class="form-control fs-6 mb-3" placeholder="Enter your email" name="email" />
+          <input id="passwordLogInput" type="password" class="form-control fs-6 mb-3" placeholder="Enter your password" name="password" />
+          <span id="messageOne" class="text-danger d-none text-center">All inputs is required</span>
+          <span id="messageFour" class="text-danger d-none text-center">incorrect email or password</span>
+          <button class="btn btn-outline-info w-100 my-3" type="submit">Login</button>
+        </form>
+        <h6 class="text-white text-center">Don’t have an account? <a href="./signup.html" class="text-white">Sign Up</a></h6>
+      </div>
+    </div>
+    <!--========================== Bootstrap js========================= -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!--========================== main js========================= -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
